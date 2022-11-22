@@ -8,7 +8,22 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "What is the title of the project?",
+    message: "What is the title of your project?",
+  },
+  {
+    type: "input",
+    name: "description",
+    message: "Pleae provide a brief description of your projec:?",
+  },
+  {
+    type: "input",
+    name: "installation",
+    message: "What are the steps required to install your project?",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "Provide instructions and examples for use:",
   },
   {
     type: "list",
@@ -16,16 +31,26 @@ const questions = [
     message: "Please choose a lincese for your application: ",
     choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3.0", "None"],
   },
-  // {
-  //   type: "input",
-  //   name: "description",
-  //   message: "Please input the description of the project ",
-  // },
-  // {
-  //   type: "input",
-  //   name: "email",
-  //   message: "Please input the email of the GitHub?",
-  // },
+  {
+    type: "input",
+    name: "contributing",
+    message: "Guidelines for how to contribute to your project: ",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "How to test your application?",
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "What is your GitHub username?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
+  },
   
 ];
 
