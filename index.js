@@ -10,6 +10,23 @@ const questions = [
     name: "title",
     message: "What is the title of the project?",
   },
+  {
+    type: "list",
+    name: "license",
+    message: "Please choose a lincese for your application: ",
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3.0", "None"],
+  },
+  // {
+  //   type: "input",
+  //   name: "description",
+  //   message: "Please input the description of the project ",
+  // },
+  // {
+  //   type: "input",
+  //   name: "email",
+  //   message: "Please input the email of the GitHub?",
+  // },
+  
 ];
 
 // TODO: Create a function to write README file
