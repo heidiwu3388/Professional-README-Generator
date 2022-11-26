@@ -41,7 +41,7 @@ function renderLicenseLink(license) {
     default :
       return "";
   }
-  return `[License link](https://opensource.org/licenses/${licenseString})`;
+  return `[${license}](https://opensource.org/licenses/${licenseString})`;
 
 }
 
@@ -51,10 +51,9 @@ function renderLicenseSection(license) {
   if (license === "None") {
     return "";
   } else {
-    const link = renderLicenseLink(license);
+    const licenseLink = renderLicenseLink(license);
     const template = `## License
-This project is licensed under the terms of the ${license} license.
-${link}
+This project is licensed under the terms of the ${licenseLink} license.
     `;
     return template;
   }
