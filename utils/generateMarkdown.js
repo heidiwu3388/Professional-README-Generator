@@ -71,10 +71,12 @@ function renderLicenseTOC(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  // render badge, license in Table of Content, and the whole lincense section
   const badge = renderLicenseBadge(data.license);
   const licenseTOC = renderLicenseTOC(data.license);
   const licenseSection = renderLicenseSection(data.license);
 
+  // build the content of the README.md in a template literal 
   const template =  `
 # ${data.title}
 ${badge}
@@ -115,8 +117,9 @@ ${data.tests}
 - You can find more of my work at [my GitHub](https://github.com/${data.github}/).
     
   `;
-
+  // return the README string
   return template;
 }
 
+// export the function generateMarkdown
 module.exports = generateMarkdown;
