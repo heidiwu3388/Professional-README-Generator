@@ -91,7 +91,10 @@ ${licenseTOC}
 * [Questions](#questions)
 
 ## Installation
+To install necessary dependencies, run the following command:
+\`\`\`
 ${data.installation}
+\`\`\`
 
 ## Usage
 ${data.usage}
@@ -102,7 +105,10 @@ ${licenseSection}
 ${data.contributing}
 
 ## Tests
+To run tests, run the following command:
+\`\`\`
 ${data.tests}
+\`\`\`
 
 ## Questions
 - If you have any questions about the repo, open an issue or contact me directly at ${data.email}. 

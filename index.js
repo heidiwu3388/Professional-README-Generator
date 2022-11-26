@@ -18,7 +18,7 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "What are the steps required to install your project?",
+    message: "What command should be run to install dependecencies?",
   },
   {
     type: "input",
@@ -39,7 +39,7 @@ const questions = [
   {
     type: "input",
     name: "tests",
-    message: "How to test your application?",
+    message: "What command should be run to tun tests?",
   },
   {
     type: "input",
