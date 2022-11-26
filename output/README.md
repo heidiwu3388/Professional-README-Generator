@@ -1,6 +1,6 @@
 
 # 
-![GitHub license](https://img.shields.io/badge/license-Apache_2.0-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
@@ -16,14 +16,14 @@
 ## Installation
 To install necessary dependencies, run the following command:
 ```
-npm install
+
 ```
 
 ## Usage
 
 
 ## License
-This project is licensed under the terms of the [APACHE 2.0](https://opensource.org/licenses/Apache-2.0) license.
+This project is licensed under the terms of the [MIT](https://opensource.org/licenses/MIT) license.
     
 
 ## Contributing
@@ -32,11 +32,11 @@ This project is licensed under the terms of the [APACHE 2.0](https://opensource.
 ## Tests
 To run tests, run the following command:
 ```
-npm test
+
 ```
 
 ## Questions
-- If you have any questions about the repo, open an issue or contact me directly at . 
-- You can find more of my work at [my GitHub](https://github.com//).
+- If you have any questions about the repo, open an issue or contact me directly at heidiwu3388@yahoo.co. 
+- You can find more of my work at [my GitHub](https://github.com/heidiwu3388/).
     
   

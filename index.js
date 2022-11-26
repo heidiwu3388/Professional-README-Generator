@@ -23,7 +23,7 @@ const questions = [
   {
     type: "input",
     name: "usage",
-    message: "Provide instructions and examples for use:",
+    message: "What does the user need to know about using the application?",
   },
   {
     type: "list",
@@ -39,7 +39,7 @@ const questions = [
   {
     type: "input",
     name: "tests",
-    message: "What command should be run to tun tests?",
+    message: "What command should be run to the tests?",
   },
   {
     type: "input",
