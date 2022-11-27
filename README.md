@@ -32,9 +32,11 @@ Please refer to the [video](https://youtu.be/S6pnmOXEiXM) for the details of how
 ## Screenshot
 
 Sample Prompts and Answers
+
 ![Prompts & Answers](./assets/images/Screenshot_prompts_answers.png)
 
 Sample generated README.md
+
 ![generated README.md](./assets/images/Screenshot_generated_README.png)
 
 
