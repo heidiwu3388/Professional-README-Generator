@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// A function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let licenseString = "";
@@ -21,7 +21,7 @@ function renderLicenseBadge(license) {
   return `![GitHub license](https://img.shields.io/badge/license-${licenseString}-blue.svg)`;
 }
 
-// TODO: Create a function that returns the license link
+// A function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   let licenseString = "";
@@ -45,7 +45,7 @@ function renderLicenseLink(license) {
 
 }
 
-// TODO: Create a function that returns the license section of README
+// A function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "None") {
@@ -59,7 +59,7 @@ This project is licensed under the terms of the ${licenseLink} license.
   }
 }
 
-// TODO: Create a function that returns the license section of the Table of Content (TOC)
+// A function that returns the license section of the Table of Content (TOC)
 // If there is no license, return an empty string
 function renderLicenseTOC(license) {
   if (license === "None") {
@@ -69,7 +69,7 @@ function renderLicenseTOC(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// A function to generate markdown for README
 function generateMarkdown(data) {
   // render badge, license in Table of Content, and the whole lincense section
   const badge = renderLicenseBadge(data.license);

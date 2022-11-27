@@ -3,66 +3,41 @@ Module 9 - Node.js Challenge
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+It is a command-line application that dynamically generates a professional README.md file from a user's input.
+By using this application, project creater can quickly and easily generate a README file and this allows him/her to devote more time working on the project.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license) 
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To install necessary dependencies, run the following command:
+```
+npm install
+```
 
 ## Usage
+Please refer to the [video](https://youtu.be/S6pnmOXEiXM) for the details of how to use the application.
+- To use the application, run the command "node index.js", answer all the questions prompted, then a README.md file will be generated under the folder ./output/
+- When the user enters the project title, it is displayed as the title of the README.
+- When the user enters a description, installation instruction, usage information, contributing guidelines, and test instructions, then this information is added to the sections of the README entitled Description, Installation, Usage, Contributin, and Tests.
+- When the user chooses a license for the application from a list of optins, then a badge for that lincense is added near the top of the README and a notice is added to the section of the README entitled Lincese that explains which lincese the application is covered under.
+- When the user enters his/her email address, then this is added to the section of the README entitled Questions, with instructions on how to reach him/her with additional questions.
+- When the user clicks on the links in the Table of Contents, then he/she will be taken to the corresponding section of the README. 
 
-Provide instructions and examples for use. Include screenshots as needed.
+## Screenshot
+Sample Prompts and Answers
+![Prompts & Answers](./assets/images/Screenshot_prompts_answers.png)
+Sample generated README.md
+![generated README.md](./assets/images/Screenshot_generated_README.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+N/A
 
 ## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+None
