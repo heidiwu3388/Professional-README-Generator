@@ -9,10 +9,9 @@ By using this application, project creater can quickly and easily generate a REA
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
+* [Screenshot](#Screenshot)
+* [Credits](#Credits)
 * [License](#license) 
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
 
 ## Installation
 To install necessary dependencies, run the following command:
@@ -29,15 +28,20 @@ Please refer to the [video](https://youtu.be/S6pnmOXEiXM) for the details of how
 - When the user enters his/her email address, then this is added to the section of the README entitled Questions, with instructions on how to reach him/her with additional questions.
 - When the user clicks on the links in the Table of Contents, then he/she will be taken to the corresponding section of the README. 
 
+
 ## Screenshot
+
 Sample Prompts and Answers
 ![Prompts & Answers](./assets/images/Screenshot_prompts_answers.png)
+
 Sample generated README.md
 ![generated README.md](./assets/images/Screenshot_generated_README.png)
 
 
 ## Credits
+
 N/A
 
 ## License
+
 None
